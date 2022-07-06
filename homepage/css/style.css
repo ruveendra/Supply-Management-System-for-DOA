@@ -1,0 +1,322 @@
+/* Reset */ 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling */
+
+html, body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+/*  Utility classes*/
+.container{
+   margin: auto;
+   max-width: 1100px;
+   overflow: auto;
+   padding: 0 20px;
+  }
+  
+  .text-primary{
+    color: #f7c08a;
+  }
+  
+  .lead{
+    font-size: 22px;
+  }
+  
+  .btn{
+    display: inline-block;
+    font-size:25px ;
+    color: #fff;
+    background: #000;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+    
+  }
+
+  #one{
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: auto;
+
+  }
+  .btn:hover{
+    background:  #f7c08a;
+    color: #000;
+  }
+  
+  .btn .btn-light{
+    padding-top:10px ;
+    background: #f4f4f4;
+    color: #000;
+  }
+  
+  .bg-dark{
+    background: #333;
+    color: #fff;
+  }
+  
+  .bg-light{
+    background: #333;
+    color:#f4f4f4;
+  }
+  
+  .bg-primary{
+    background: #333;
+    color: #f7c08a;
+  }
+  
+  .clr{
+    clear: both;
+  }
+  
+  .l-heading{
+    padding-top: 10px;
+    font-size: 50px;
+  }
+  /* Padding */
+  .py-1{padding: 10px 0;}
+  .py-2{padding: 20px 0;}
+  .py-3{padding: 80px 0;}
+
+  /* Navbar */
+  #navbar{
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden; /*so that background shows no matter what*/
+    position: fixed;
+    width: 100%;
+  }
+  
+  #navbar .container .logo a{
+    font-size: 50px;
+  }
+  #navbar a{
+    color:#fff ;
+  }
+
+ #navbar h1{
+   float: left;
+   padding-top: 20px;
+ }
+
+ #navbar ul{
+   list-style: none;
+   float: right;
+ }
+
+ #navbar ul li{
+   float: left;
+ }
+
+ #navbar ul li a{
+   display: block;
+   padding: 20px;
+   text-align: center;
+   font-size: 30px;
+   
+ }
+
+ #navbar ul li a:hover,
+ #navbar ul li .current{
+   cursor: pointer;
+   background-color: #444;
+   color: #f7c08a;
+ }
+
+  /* showcase */
+  #showcase{
+   background: url(../img/showcase.jpg) no-repeat center center/cover;
+   height: 650px;
+  } 
+
+  #showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px ;
+  } 
+
+  #showcase .showcase-content h1{
+    font-size: 90px;
+    line-height: 1.2em;
+  }
+
+  #showcase .showcase-content p{
+    font-size:30px;
+padding-bottom:0px;
+line-height: 1.9em;
+  }
+
+/* Home Info */
+#home-info{
+  height: 500px;
+}
+
+#home-info .info-img{
+  float: left;
+  width: 50%;
+  background: url(../img/photo-1.jpg) no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+
+}
+
+#home-info .info-content p{
+  padding-bottom:15px ;
+  font-size: 25px;
+}
+
+/* Features */
+.box{
+  float: left;
+  width: 33.3%;
+  height: 450px;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i{
+  margin-bottom: 10px;
+}
+/* About info */
+#about-info .info-right{
+float: right;
+width: 50%;
+min-height: 100%;
+}
+
+#about-info .info-right img{
+  display: block;
+  width: 100%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  line-height: 1.8em;
+}
+
+#about-info .info-left h1{
+  padding-top: 20px;
+}
+
+/* Testimonials */
+#section-testimonials{
+  height: 600px;
+  background: url(../img/test-bg.jpg) no-repeat center center/cover;
+  padding-top: 40px; 
+  
+}
+
+#section-testimonials .container .testimonial{
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  opacity: 0.8;
+}
+
+#section-testimonials .container .testimonial img{
+  width: 150px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+
+}
+#section-testimonials h2{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.clr{
+  clear: both;
+}
+
+/* Contact form */
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+
+.container p{
+  font-size: 25px;
+  color: #fff;
+}
+
+#contact-form  label{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+#contact-form input,
+#contact-form  textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+  border-radius: 10px;
+}
+
+#contact-form  textarea{
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form  textarea:focus{
+  outline:none ;
+  border-color: #f7c08a;
+}
+#contact-info .box h3{
+font-size: 30px;
+color: #fff;
+}
+
+#contact-info .box p{
+  font-size: 20px;
+  color: #fff
+  }
+
+  .bg-color{
+    background-color: #333;
+  }
+/* Footer */
+#main-footer{
+padding: 10px 0;
+color: #fff;
+font-size: 25px;
+text-align: center;
+background: #444; 
+}
