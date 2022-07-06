@@ -1,0 +1,24 @@
+#main{
+	width:99%;
+	height:600px;
+	margin-left:0.5%;
+	border:1px solid black;
+}
+#A{
+	width:99%;
+	height:400px;
+	margin-top:30px;
+	margin-left:0.5%;
+	border:1px solid black;
+	background-image:url('1.jpg.png');
+	background-size:cover;
+}
+#B{
+	width:99%;
+	height:180px;
+	background-color:white;
+	opacity:0.6;
+	margin-left:0.5%;
+	margin-top:50px;
+}
+
